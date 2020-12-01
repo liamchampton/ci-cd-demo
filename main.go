@@ -15,6 +15,6 @@ func main() {
 }
 
 func Home(w http.ResponseWriter, r *http.Request) {
-	msg := "This is a test for liamstoolchain"
+	msg := "This is a test for ci-cd"
 	w.Write([]byte(fmt.Sprintf(msg)))
 }
